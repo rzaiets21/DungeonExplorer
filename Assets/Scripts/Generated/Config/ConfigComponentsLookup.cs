@@ -8,15 +8,15 @@
 //------------------------------------------------------------------------------
 public static class ConfigComponentsLookup {
 
+    public const int ComponentsConfigConfig = 0;
 
-
-    public const int TotalComponents = 0;
+    public const int TotalComponents = 1;
 
     public static readonly string[] componentNames = {
-
+        "ComponentsConfigConfig"
     };
 
     public static readonly System.Type[] componentTypes = {
-
+        typeof(Components.Config.ConfigComponent)
     };
 }
